@@ -1,0 +1,62 @@
+/* @import "tailwindcss"; */
+.navbar{
+    height: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.128);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-menu{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    cursor: pointer;
+}
+.nav-menu a{
+   text-decoration: none;
+   color: rgb(57, 57, 57);
+}
+
+.login{
+    margin-right: 40px;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #28a745;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-cart{
+
+    display: flex;
+    cursor: pointer;
+
+    .nav-cart-count{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: red;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        height: 20px;
+        width: 20px;
+    }
+}
+
+.nav-cart img{
+    height: 40px;
+    width: 40px;
+}
+
+hr{
+    color: red;
+}
+.search{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.286);
+    padding-left: 10px;
+}

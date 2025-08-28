@@ -1,0 +1,67 @@
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 40px 20px;
+  font-size: 14px;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-top div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-top h4 {
+  font-size: 14px;
+  color: #bbb;
+  margin-bottom: 10px;
+}
+
+.footer-top ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-top ul li {
+  margin: 5px 0;
+  cursor: pointer;
+  color: #fff;
+}
+
+.footer-top p {
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.social-icons i {
+  margin-right: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  border-top: 1px solid #555;
+  margin-top: 30px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-links span {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.payment-icons {
+    display: flex;
+  height: 30px;
+  margin-right: 10px;
+}
